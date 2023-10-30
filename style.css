@@ -1,51 +1,76 @@
-body{
+body {
     background-color: black;
     color: white;
     margin: 0;
-
 }
 
-@font-face{
+@font-face {
     font-family: SharpGrotesk;
-    src: url("Sharp_Grotesk/SharpGrotesk-Book25.otf") format("opentype")
+    src: url("Sharp_Grotesk/SharpGrotesk-Book25.otf") format("opentype");
 }
 
-h2{
+h2 {
     font-family: SharpGrotesk;
 }
 
-header{
+header {
     height: 48px;
+    width: 100%;
     background-color: white;
-    display: flex;
+    display: inline-flex;
     margin: auto;
     margin-left: 0;
     padding-top: 0;
     color: black;
     align-items: center;
 }
-.dropbox-title{
-   padding-left: 5px;
-}
-.logo{  
-    background-color: #0061FE;
-    padding: 15px;
+
+.dropbox-title {
+    margin-left: 10px;
+    margin-top: 2px;
 }
 
-nav ul {
-    list-style: none; /* Remova marcadores de lista */
-    padding: 0;
+.logo-container {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    background-color: #0061FE;
+    justify-content: center;
+}
+
+.logo {
+    height: 55%;
+}
+
+ul {
+    list-style: none;
     margin: 0;
 }
 
-nav li {
-    display: inline; /* Faça com que os itens da lista fiquem lado a lado */
-    margin-right: 20px; /* Adicione espaço entre os itens */
-;
+li {
+    display: inline;
+   
 }
 
-nav a {
-    text-decoration: none; /* Remova a formatação padrão de links */
-    color: white; /* Cor do texto dos links */
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 14px;
+    background-color: white; /* Default button background color */
+   
 
+    transition: background-color 0.5s; /* Smooth background color transition */
 }
+
+/* Style the button when hovering over it */
+a:hover {
+    background-color: #c8c8c6; /* Background color on hover */
+   
+}
+
+
+
+
+
+
