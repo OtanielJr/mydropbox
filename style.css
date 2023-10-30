@@ -1,7 +1,8 @@
 body {
-    background-color: black;
+    background-color: #1e1919;
     color: white;
     margin: 0;
+    
 }
 
 @font-face {
@@ -21,8 +22,8 @@ header {
     margin: auto;
     margin-left: 0;
     padding-top: 0;
-    color: black;
     align-items: center;
+    
 }
 
 .dropbox-title {
@@ -53,9 +54,10 @@ li {
    
 }
 
-a {
+li a {
+   
     text-decoration: none;
-    color: black;
+    color: #1e1919;
     padding: 15px 14px;
     background-color: white; /* Default button background color */
    
@@ -70,7 +72,67 @@ a:hover {
 }
 
 
+    
+.page-start{
+    margin-top: 3%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+}
+.page-start h2{
+    width: 50%;
+    font-size: 35px;
+}
+.second-subtitle{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.second-subtitle-text{
+    width: 37%;
+    font-size: 15px;
+    font-family:a;
+    
+}
 
+
+.get-start-button{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 30px 50px;
+    
+}
+.get-start-button-text{
+
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 25px 70px;
+    background-color: #0061FE; /* Default button background color */
+
+    
+}
+
+
+.get-start-button-text:hover{
+    background-color: #3984FF;
+}
+
+video{
+    margin-left: 5%;
+    width: 90%;
+}
 
 
 
