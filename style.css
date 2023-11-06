@@ -65,6 +65,20 @@ li a {
     transition: background-color 0.5s; /* Smooth background color transition */
 }
 
+.button-translate{
+    
+    padding-left: 300px;
+   
+    
+    
+}
+
+.button-translate-content{
+    
+   
+    
+}
+
 /* Style the button when hovering over it */
 a:hover {
     background-color: #c8c8c6; /* Background color on hover */
@@ -123,10 +137,36 @@ a:hover {
 
     
 }
-
-
 .get-start-button-text:hover{
     background-color: #3984FF;
+}
+
+.get-started-button{
+    
+
+    text-align: end;
+    padding: 12px 10px;
+    
+}
+
+.get-started-button-text{
+    text-align: start;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 13px 35px;
+    background-color: #0061FE; /* Default button background color */
+
+    
+}
+
+
+.get-started-button-text:hover{
+    background-color: #3984FF;
+}
+.arrow{
+    height: 10%;
 }
 
 video{
